@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inicio</title>
+        <link rel="icon" href="/imagenes/ico/BAZAR-TODO-Y-MAS.ico">
+        <link rel="stylesheet" href="/styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:wght@400;700&display=swap"
+            rel="stylesheet">
+        <!--CND Icons Boostrap-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <title>Pagina principal</title>
+        <meta name="description" content="Pagina principal de mi Tienda">
+    
+    </head>
+<body>
+    <header class="header">
+        <section class="contenedor">
+            <h1 class="titulo">
+                <a class="logo" href="/index.html">
+                    <h1 class="logo_nombre no-margin centrar-texto">
+                        Bazar De Todo Un Poco<span class="logo_bold "> Y Algo Mas</span></h1>
+                </a>
+            </h1>
+        </section>
+    </header>
+
+    <section class="contenedor">
+        <nav class="navegacion-principal">
+            <a href="/index.html">Inicio</a>
+            <a href="/productos.html">Productos</a>
+            <a href="/contacto.html">Contacto</a>
+            <a href="/reseñas.html">Reseñas</a>
+            <a href="/carrito.html">Carrito de Compras</a>
+        </nav>
+    </section>
+</body>
+<main>
+    <section class="carrito">
+        <h2 class="comprar titulo">Carrito de Compras</h2>
+
+        <table>
+            <thead>
+                <tr>
+                <th>Nombre</th>
+                <th>Cantidad</th>
+                <th>Precio</th>
+                <th>Subtotal</th>
+                <th>Total</th>
+            </tr>
+            </thead>
+            <tbody class="items">
+                <tr data-id="">
+                <td>Nombre</td>
+                <td>Cantidad</td>
+                <td>Precio</td>
+                <td>Subtotal</td>
+                <td>Total</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <script src="/js/carrito.js"></script>
+</main>
+</html>
